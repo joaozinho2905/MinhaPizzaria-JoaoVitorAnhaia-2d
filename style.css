@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Definindo a fonte padrão para a página */
+body {
+    background-image:url(./pizza.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cadastrar{
+    font-family: 'segoe Ui', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*Estilo do formulário*/
+.login {
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.cadastro{
+    font-size: 24px;
+    color: #333;
+}
+/*Estilo dos labels*/
+.nomezinho{
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: #555;
+}
+/*Estilo dos campos de entrada*/
+.barrazinha{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+/*Estilo do botão de envio*/
+.botaodeentrar{
+    font-family: 'Segoe UI', sans-serif;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border: 2px solid #4b4b4b;
+    border-radius: 4px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.botaodeentrar{
+    background-color: #ffd900;
+}
+/*Home.html*/
+.home body{
+    background-color: #ffee00;
+    height: 100vh;
+}
+.navbar {
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #333;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    font-family: 'segoe Ui', sans-serif;
+    font-size: 30px;
+    color: #ffd900;
+    text-decoration: none;
+}
+.search {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input {
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.nav-links {
+    font-family: 'Segoe UI', sans-serif;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links li {
+    list-style-type: none;
+    padding: 15px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+}
+.nav-links li a:hover {
+    color: rgb(80, 80, 80);
+}
+.pizzasamostra{
+    margin-top: 90px;
+    padding: 20px;
+    background-color: white;
+}
+.pizzasamostra h2{
+    font-family: 'Segoe UI', sans-serif;
+}
+.ofertas{
+    margin-top: 90px;
+    padding: 20px;
+    background-color: white;
+}
+.ofertas h2{
+    font-family: 'Segoe UI', sans-serif;
+}
