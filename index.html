@@ -6,7 +6,7 @@
     <title>Pizzaria do João</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="inicio">
     <section class="cadastrar">
     <form onsubmit="login(); return false;" class="login">
         <h3 class="cadastro">Cadastro</h3>
@@ -22,25 +22,18 @@
       <input type="submit" value="Entrar" class="botaodeentrar">
   </form>
   </section>
-    <script>
-        function login() {
-            const login = document.getElementById('Login').value.trim();
-            const senha = document.getElementById('Senha').value.trim();
-            const email = document.getElementById('Email').value.trim();
-            const telefone = document.getElementById('Telefone').value.trim();
-
-            const validLogin = "Joao";
-            const validSenha = "29052009";
-            const validEmail = "joao.anhaia.santos@escola.pr.gov.br";
-            const validTelefone = "123";
-
-            if (login === validLogin && senha === validSenha && email === validEmail && telefone === validTelefone) {
-                alert('Sucesso!');
-                location.href = "home.html";
-            } else {
-                alert('Usuário ou senha incorretos');
-            }
+  <script>
+    function login() {
+        var login = document.getElementById("Login").value;
+        var senha = document.getElementById("Senha").value;
+    
+        if (login == "admin" && senha == "123") {
+            alert('sucesso');
+            location.href = "home.html";
+        } else {
+            alert('usuário e senha incorretos');
         }
+    }
     </script>
 </body>
 </html>
